@@ -12,7 +12,7 @@ Class MainWindow
 
     Private Sub btnOk_Click(sender As Object, e As RoutedEventArgs) Handles btnOk.Click
         Try
-            If BMessage.Instance.fnMessage("Test ok message box.", "Test", MessageBoxButton.OK) = MessageBoxResult.OK Then
+            If BMessage.Instance.fnMessage("Test ok message box. Complement with a very big message, to test text wraping. it was wrong in some point.", "Test", MessageBoxButton.OK) = MessageBoxResult.OK Then
                 BMessage.Instance.fnMessage("Return ok", "Test", MessageBoxButton.OK, BMessage.enm_MessageImages.Ok)
             Else
                 BMessage.Instance.fnMessage("Return Cancel", "Test", MessageBoxButton.OK)
@@ -85,7 +85,7 @@ Class MainWindow
             inty = intx / inty
 
         Catch ex As Exception
-            Throw New Exception("Take your error", ex)
+            Throw New Exception("Take your error.  Complement with a very big message, to test text wraping. it was wrong in some point.", ex)
         End Try
     End Sub
 

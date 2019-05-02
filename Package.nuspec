@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>kelvysb.BControls</id>
+    <version>1.0.0.2</version>
+    <authors>Kelvys Boniek Pantaleão</authors>
+    <owners>Kelvys Boniek Pantaleão</owners>
+    <license type="file">licence\LICENCE.txt</license>
+    <projectUrl>https://github.com/kelvysb/BControls</projectUrl>   
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Customizable mesage box for wpf applications</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright kelvysb 2019</copyright>
+    <tags>wpf customizable messagebox</tags>
+    <dependencies>
+      <dependency id="kelvysb.BGlobal" version="1.0.0.6" />
+      <dependency id="Newtonsoft.Json" version="12.0.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Compiled\BControls.dll" target="lib\BControls.dll" />
+    <file src="BControls\COPYING.txt" target="licence\LICENCE.txt" />
+  </files>
+</package>
